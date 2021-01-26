@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4414352-b385-42a4-a48c-cdbafd2ab49c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HATEOAS sga-airline/steins-gate-airline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hateoas/SpringExamples" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-hateoas-examples" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/db-scripts/01-create-user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/db-scripts/02-create-products.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/src/main/java/com/angular/ecommerce/EcommerceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/src/main/java/com/angular/ecommerce/config/MyDataRestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/src/main/java/com/angular/ecommerce/dao/ProductCategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/src/main/java/com/angular/ecommerce/dao/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/src/main/java/com/angular/ecommerce/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/src/main/java/com/angular/ecommerce/entity/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ecommerce-angular/src/test/java/com/angular/ecommerce/EcommerceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../herokuPostgresqlTest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../library-api Udemy Rest Api design/library-apis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/Schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/MeajudaaajudarApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/commons/SimpleIdentifiableRepresentationModelAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/controller/CidadeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/controller/EstadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/controller/RootController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/entity/Causa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/entity/Cidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/entity/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/entity/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/entity/Instituicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/entity/assembler/CidadeModelAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/entity/assembler/CidadeRepresentationModelAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/entity/assembler/EstadoRepresentationModelAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/entity/assembler/HATEOASBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/repository/CidadeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/repository/EstadoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/service/CidadeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/java/com/sylleryum/meajudaaajudar/service/EstadoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/main/webapp/pages/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../meajudaaajudar/src/test/java/com/sylleryum/meajudaaajudar/MeajudaaajudarApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/git" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CryptoCheckerNew/cryptochecker" beforeDir="false" afterPath="$PROJECT_DIR$/../CryptoCheckerNew/cryptochecker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interface" beforeDir="false" afterPath="$PROJECT_DIR$/../Interface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramacaoWeb" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgramacaoWeb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binance-java-api" beforeDir="false" afterPath="$PROJECT_DIR$/../binance-java-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/src/main/java/com/crud/ecommerceangular/EcommerceangularApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecommerceangular/src/test/java/com/crud/ecommerceangular/EcommerceangularApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pizzariaOld/pizzaria_unisulLocal" beforeDir="false" afterPath="$PROJECT_DIR$/../pizzariaOld/pizzaria_unisulLocal" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-hateoas-examples" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hdww5MVNSQmqTNK1XUgvWdlldn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringHateoasAffordancesApplication">
+    <configuration name="NewClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hateoas-examples-new-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.hateoas.examples.NewClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hateoas-examples-new-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.hateoas.examples.NewServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OriginalClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hateoas-examples-original-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.hateoas.examples.OriginalClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OriginalServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hateoas-examples-original-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.hateoas.examples.OriginalServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringHateoasAffordancesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hateoas-examples-affordances" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.hateoas.examples.SpringHateoasAffordancesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringHateoasBasicsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hateoas-examples-basics" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.hateoas.examples.SpringHateoasBasicsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringHateoasHypermediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hateoas-examples-hypermedia" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.hateoas.examples.SpringHateoasHypermediaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringHateoasSimplifiedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hateoas-examples-simplified" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.hateoas.examples.SpringHateoasSimplifiedApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringHateoasSpringDataRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-hateoas-examples-spring-data-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.hateoas.examples.SpringHateoasSpringDataRestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4414352-b385-42a4-a48c-cdbafd2ab49c" name="Default Changelist" comment="" />
+      <created>1600354511974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600354511974</updated>
+      <workItem from="1600354513084" duration="4808000" />
+      <workItem from="1600380162249" duration="598000" />
+      <workItem from="1600445700713" duration="1588000" />
+      <workItem from="1600464850452" duration="1162000" />
+      <workItem from="1600534840046" duration="1658000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2040" y="126" key="#Project_Structure" timestamp="1600465042967">
+      <screen x="1920" y="60" width="1280" height="943" />
+    </state>
+    <state x="2040" y="126" key="#Project_Structure/1920.60.1280.943/0.0.1920.999@1920.60.1280.943" timestamp="1600465042967" />
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>Servlet inserir</servlet-name>
+    <servlet-class>ad2.InserirPessoa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Servlet inserir</servlet-name>
+    <url-pattern>/inserir</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>servlet listar</servlet-name>
+    <servlet-class>ad2.ListarPessoa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlet listar</servlet-name>
+    <url-pattern>/listar</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>servlet alterar</servlet-name>
+    <servlet-class>ad2.AlterarPessoa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlet alterar</servlet-name>
+    <url-pattern>/alterar</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>servlet Excluir</servlet-name>
+    <servlet-class>ad2.ExcluirPessoa</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlet Excluir</servlet-name>
+    <url-pattern>/excluir</url-pattern>
+  </servlet-mapping>
+</web-app>

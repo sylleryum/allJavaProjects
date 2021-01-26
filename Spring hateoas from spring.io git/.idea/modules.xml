@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring hateoas from spring.io git.iml" filepath="$PROJECT_DIR$/.idea/Spring hateoas from spring.io git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/commons/commons.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/spring-hateoas-examples.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/spring-hateoas-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/affordances/spring-hateoas-examples-affordances.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/affordances/spring-hateoas-examples-affordances.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/api-evolution/spring-hateoas-examples-api-evolution.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/api-evolution/spring-hateoas-examples-api-evolution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/basics/spring-hateoas-examples-basics.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/basics/spring-hateoas-examples-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/hypermedia/spring-hateoas-examples-hypermedia.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/hypermedia/spring-hateoas-examples-hypermedia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/api-evolution/new-client/spring-hateoas-examples-new-client.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/api-evolution/new-client/spring-hateoas-examples-new-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/api-evolution/new-server/spring-hateoas-examples-new-server.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/api-evolution/new-server/spring-hateoas-examples-new-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/api-evolution/original-client/spring-hateoas-examples-original-client.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/api-evolution/original-client/spring-hateoas-examples-original-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/api-evolution/original-server/spring-hateoas-examples-original-server.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/api-evolution/original-server/spring-hateoas-examples-original-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/simplified/spring-hateoas-examples-simplified.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/simplified/spring-hateoas-examples-simplified.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hateoas-examples/spring-hateoas-and-spring-data-rest/spring-hateoas-examples-spring-data-rest.iml" filepath="$PROJECT_DIR$/spring-hateoas-examples/spring-hateoas-and-spring-data-rest/spring-hateoas-examples-spring-data-rest.iml" />
+    </modules>
+  </component>
+</project>

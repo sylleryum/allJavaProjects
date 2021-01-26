@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+	
+	<context:property-placeholder location="classpath:formas\details.properties"/>
+	
+    <!-- Define your beans here -->
+    
+    <bean id="Atributo"
+    	class="formas.ModeloOldSchool">    
+    </bean>
+    
+    <bean id="formaBean"
+    	class="formas.Triangulo">    
+    	<constructor-arg ref="Atributo"/>
+    </bean>
+    
+    <bean id="formaBeanLosango"
+    	class="formas.Losango" lazy-init = "true"
+    	init-method="inicializar"
+    	destroy-method="deletando">
+    	<property name="atributo" ref="Atributo" /> 
+    	<property name="preco" value="${preco}"/>   
+    	
+    </bean>
+ 	
+</beans>

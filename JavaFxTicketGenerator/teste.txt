@@ -1,0 +1,123 @@
+Colombia local:
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---LABU---CLB---Deskside-Support-Overview.aspx
+LABU - CLB - INFRASTRUCTURE ONSITE SUPPORT
+
+Unlock account:
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Passwords---Unlocking-a-CT-Account.aspx
+
+reset CT:
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Passwords---Resetting-a-CT-Password-in-Active-Directory.aspx
+
+Outlook: 
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Applications---Outlook.aspx
+
+modify security group:
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---ID-Maintenance---AD-Security-Group-Changes.aspx
+
+shared folder/o drive:
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Shared-Folder-Requests.aspx
+
+Smartbadge:
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/Hub%20-%20Smartbadge.aspx
+
+Smartprint: 
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Printers---Xerox-Printer-Support-(Smartprint).aspx
+
+iphone:
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Mobility---Apple-IOS-Devices-(iPhone-and-iPad).aspx
+
+options panel
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---GILTools---GIL-Options-Panel.aspx
+
+temporary admin
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---ID-Maintenance---Granting-Temporary-Administrator-Rights.aspx
+
+Lync
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Messaging---Skype-for-Business---Microsoft-Lync-2013.aspx
+
+Bitlocker:
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---GILTools---BitLocker.aspx
+
+Internet explorer
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Internet---IE-11-Trouble-Shooting-steps.aspx
+
+WAM
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Lists/DailyUpdateTracker/Flat.aspx?RootFolder=%2fsites%2fgsdkb%2fGSDKB%2fLists%2fDailyUpdateTracker%2fWAM%20Updates%2d%2dResolve%20FCR%20at%20the%20Service%20Desk%21&FolderCTID=0x0120020096D85E8008A947489E8EF545398ACC07
+
+Telecom
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/Hub%20-%20Telecom.aspx
+
+webex
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/WebEx%20Landing%20(New).aspx
+
+break fix
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Hardware---GIL-Break-Fix.aspx
+
+gil services 
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---GILTools---GILServ.aspx
+
+guest network
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Internet---Guest-Internet-Access.aspx
+
+Office 365
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Office---Office-365-Common-Issues.aspx
+
+printer ar
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---LABU---ARG---Printer-Support.aspx
+LABU - AR - BUENOS AIRES SERVICE DESK
+
+E procurement ve
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---LABU---VZ---Ariba-eProcurement-Support.aspx
+LABU - VE - EPROCUREMENT SUPPORT
+
+CBRES
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---CBRES.aspx
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---CBRES---Support-Procedures-main.aspx
+
+Update ticket
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Call%20Handling---Call-Answering-Script.aspx#existing
+
+Reset CTI CTQ
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Passwords---Resetting-Passwords-On-CTI-and-CTQ-Test-Domains.aspx
+
+=========================
+-locked
+Problem description: User account is locked out
+Troubleshooting performed: account was unlocked with success.
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Passwords---Unlocking-a-CT-Account.aspx
+
+-bitlocker
+Problem description: User is stuck on bitlocker screen
+Troubleshooting performed: Recovery key was provided to user and computer unlocked with success.
+-bitlocker
+Problem description: XXXX informa que está atascado en una pantalla de Bitlocker
+Troubleshooting performed: con el recovery code la computadora fue desbloqueada con éxito
+
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---GILTools---BitLocker.aspx
+
+
+-Activate Iphone
+Problem description: User requests to activate his new Iphone
+Troubleshooting performed: Activation email was sent with success.
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Apple-IOS-Devices-(iPhone-and-iPad).aspx
+
+-Mailbox size increase
+Problem description: User requests to increase mailbox storage
+User: 
+Location: 
+Phone: 
+Current: Tier 
+Desired: Tier 
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/GSD---Account-Management---Personal-Mailbox---Mailbox-Tier-Change.aspx
+
+-password expired
+Problem description: User is unable to login to the system as the network password has expired
+Troubleshooting performed: as user uses a Smartbadge the password age was set back to 0. Problem solved
+-password expired SPANISH
+Problem description: Nubia informa que recibió un mensaje de password expired intentado loguear en la computadora
+Troubleshooting performed: como Nubia usa una Smartbadge el password age fue reseteado para 0. Problema resuelto 
+
+-voicemail password reset
+Problem description: User requests a voicemail password reset.
+Troubleshooting performed: request has been raised through SRM. Ticket # REQ000002428354 
+https://collab001-hou.sp.chevron.net/sites/gsdkb/GSDKB/Pages/Telecom%20Knowledge%20Hub.aspx

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-aop-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-aspects-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-beans-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-context-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-context-indexer-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-context-support-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-core-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-expression-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-instrument-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-jcl-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-jdbc-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-jms-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-messaging-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-orm-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-oxm-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-test-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-tx-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-web-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-webflux-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-webmvc-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/spring-framework-5.0.1.RELEASE-dist/spring-framework-5.0.1.RELEASE/libs/Core/spring-websocket-5.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/MVC/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/MVC/javax.servlet.jsp.jstl-1.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Arquivo micro/alisson/FACUL/Facul/Orientação a objetos/spring/libs/MVC/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

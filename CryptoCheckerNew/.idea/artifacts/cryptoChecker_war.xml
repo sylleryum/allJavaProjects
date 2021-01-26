@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="cryptoChecker:war">
+    <output-path>$PROJECT_DIR$/cryptochecker/target</output-path>
+    <root id="archive" name="cryptochecker.war">
+      <element id="artifact" artifact-name="cryptoChecker:war exploded" />
+    </root>
+  </artifact>
+</component>

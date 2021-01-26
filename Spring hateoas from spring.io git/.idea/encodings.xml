@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/affordances/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/api-evolution/new-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/api-evolution/new-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/api-evolution/original-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/api-evolution/original-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/basics/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/hypermedia/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/simplified/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-hateoas-examples/spring-hateoas-and-spring-data-rest/src/main/java" charset="UTF-8" />
+  </component>
+</project>
