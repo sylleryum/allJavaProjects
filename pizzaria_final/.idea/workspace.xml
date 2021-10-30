@@ -5,100 +5,145 @@
       <artifact name="pizzaria_unisulTest2:war" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5d381953-f457-4819-b884-b1fe09ececd9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/Default.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/High.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/Localized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/Medium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/PageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/Snippet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/Standard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/Thumbnails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/youtube/Youtube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/CreatePlaylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/CreatePlaylist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/Playlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/Entity/Playlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/helper/SongTitleUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/helper/SongTitleUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/helper/SongTitleUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/helper/SongTitleUtilImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/helper/YoutubeUtilImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/helper/YoutubeUtilImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/service/ServiceApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/service/ServiceApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/service/ServiceApiImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/main/java/com/example/demo/service/ServiceApiImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootRestTest2/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootRestTest2/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/logs/BoostMyVocabulary.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/logs/BoostMyVocabulary.log.2021-03-01.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/SylleryumApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/commons/ControllerReturnStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/commons/EntityToHATEOAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/commons/JsonConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/commons/ResponseBodyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/commons/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/commons/TraceIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/config/ResponseTokenBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/config/WhiteSpaceRemovalDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/config/security/BcryptEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/config/security/JWTConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/config/security/JWTKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/config/security/JwtUsernameAndPasswordAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/config/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/config/security/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/controller/ExceptionHandlerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/email/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/ApiUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/GrammarCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/PasswordResetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/ResetToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/ResponseToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/UserToRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/Word.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/entity/WordProgress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/exception/IlegalCredentialsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/exception/ResourceAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/exception/ResourceBadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/exception/TokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/repository/ApiUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/repository/ConfirmationTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/repository/ResetTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/service/ApiUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/service/ConfirmationTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/service/RefreshTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/service/RegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/java/com/sylleryum/sylleryum/service/ResetTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoostMyVocabulary/src/test/java/com/sylleryum/sylleryum/SylleryumApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/logs/BoostMyVocabulary.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/logs/BoostMyVocabulary.log.2021-02-21.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/logs/BoostMyVocabulary.log.2021-02-22.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/logs/BoostMyVocabulary.log.2021-02-24.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/logs/BoostMyVocabulary.log.2021-02-25.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/logs/BoostMyVocabulary.log.2021-02-26.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/logs/BoostMyVocabulary.log.2021-02-27.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/SylleryumApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/commons/ControllerReturnStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/commons/JsonConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/commons/ResponseBodyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/commons/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/commons/TraceIdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/config/ResponseTokenBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/config/WhiteSpaceRemovalDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/config/security/BcryptEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/config/security/JWTConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/config/security/JWTKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/config/security/JwtUsernameAndPasswordAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/config/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/config/security/TokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/controller/ExceptionHandlerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/email/EmailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/entity/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/entity/ApiUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/entity/PasswordResetRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/entity/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/entity/ResetToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/entity/ResponseToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/entity/UserToRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/exception/IlegalCredentialsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/exception/ResourceAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/exception/ResourceBadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/exception/TokenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/repository/ApiUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/repository/ConfirmationTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/repository/ResetTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/service/ApiUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/service/RefreshTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/service/RegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/java/com/sylleryum/sylleryum/service/ResetTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full authentication/src/test/java/com/sylleryum/sylleryum/SylleryumApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StringSpotify" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../getTopTracks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/git" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CryptoCheckerNew/cryptochecker" beforeDir="false" afterPath="$PROJECT_DIR$/../CryptoCheckerNew/cryptochecker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HATEOAS sga-airline/steins-gate-airline" beforeDir="false" afterPath="$PROJECT_DIR$/../HATEOAS sga-airline/steins-gate-airline" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Interface" beforeDir="false" afterPath="$PROJECT_DIR$/../Interface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgramacaoWeb" beforeDir="false" afterPath="$PROJECT_DIR$/../ProgramacaoWeb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api security header/javadevjournal" beforeDir="false" afterPath="$PROJECT_DIR$/../api security header/javadevjournal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../binance-java-api" beforeDir="false" afterPath="$PROJECT_DIR$/../binance-java-api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../herokuPostgresqlTest" beforeDir="false" afterPath="$PROJECT_DIR$/../herokuPostgresqlTest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../library-api Udemy Rest Api design/library-apis" beforeDir="false" afterPath="$PROJECT_DIR$/../library-api Udemy Rest Api design/library-apis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../meajudaaajudar" beforeDir="false" afterPath="$PROJECT_DIR$/../meajudaaajudar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pizzariaOld/pizzaria_unisulLocal" beforeDir="false" afterPath="$PROJECT_DIR$/../pizzariaOld/pizzaria_unisulLocal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spotifyit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spotifyit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring security/spring-boot-security-course" beforeDir="false" afterPath="$PROJECT_DIR$/../spring security/spring-boot-security-course" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/unisul/springsecurity/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/unisul/springsecurity/controller/LinksController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1446">
-              <caret line="266" column="41" selection-start-line="266" selection-start-column="38" selection-end-line="266" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/unisul/springsecurity/Entity/Pedido.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/unisul/springsecurity/config/DemoAppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/pedido2.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="90" column="56" lean-forward="true" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/unisul/springsecurity/config/MySpringMvcDispatcherServletInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -131,13 +176,6 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
@@ -160,6 +198,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectId" id="1ohofJyuzYb9QsT0mNViiImNwIm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -266,29 +305,27 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="import&#9;ACTION&#9;DatabaseView.ImportDataSources" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555794729101" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jackson-databinding-json-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat JDK">
     <configuration default="true" type="Application" factoryName="Application">
@@ -298,12 +335,14 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -311,7 +350,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat JDK" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk1.8.0_181">
+    <configuration name="Tomcat JDK" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../Program Files/Java/jdk1.8.0_181">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -324,11 +363,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_pizzaria_unisulTest2_3" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="59473" />
       </RunnerSettings>
@@ -384,7 +423,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="Tomcat JRE" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jre1.8.0_181">
+    <configuration name="Tomcat JRE" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../Program Files/Java/jre1.8.0_181">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pizzaria_unisulBackup3/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -397,11 +436,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_pizzaria_unisulTest2_2" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="58692" />
       </RunnerSettings>
@@ -459,6 +498,7 @@
       <item itemvalue="Tomcat Server.Tomcat JDK" />
     </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -491,6 +531,8 @@
       <workItem from="1559953835393" duration="10000" />
       <workItem from="1561153592436" duration="1331000" />
       <workItem from="1563114321575" duration="236000" />
+      <workItem from="1613748286609" duration="842000" />
+      <workItem from="1616279221247" duration="637000" />
     </task>
     <servers />
   </component>
@@ -547,10 +589,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/unisul/springsecurity/dao/PedidoDAOImpl.java">
