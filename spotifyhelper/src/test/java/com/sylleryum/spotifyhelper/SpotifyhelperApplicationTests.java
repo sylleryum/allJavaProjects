@@ -9,10 +9,8 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
@@ -44,38 +42,38 @@ class SpotifyhelperApplicationTests {
 
     @Test
     void theTest() {
-        int[] ints = twoSum(new int[]{12,13,23,28,43,44,59,60,61,68,70,86,88,92,124,125,136,168,173,173,180,199,212,221,227,230,277,282,306,314,316,321,325,328,336,337,363,365,368,370,370,371,375,384,387,394,400,404,414,422,422,427,430,435,457,493,506,527,531,538,541,546,568,583,585,587,650,652,677,691,730,737,740,751,755,764,778,783,785,789,794,803,809,815,847,858,863,863,874,887,896,916,920,926,927,930,933,957,981,997},
-                542);
-//        int[] ints = twoSum(new int[]{1,2,3,4,4,9,56,90},
-//                8);
+        int[] alist = new int[]{3, 6, 9, 1, 4, 10, 5};
+        quickSort(alist, 0, alist.length - 1);
         System.out.println();
     }
 
-    public int[] twoSum(int[] numbers, int target) {
-        int pivot1 = 0, pivot2 = 0;
-        int difference = target-numbers[pivot1];
-        int left = 0, right = numbers.length - 1;
+    public void quickSort(int[] arr, int begin, int end) {
+        if (begin < end) {
+            int partitionIndex = partition(arr, begin, end);
 
-        try {
-            while (pivot1<numbers.length-1) {
-                while (left <= right) {
-                    pivot2 = left + (right - left) / 2;
-                    if (numbers[pivot2] == difference) return new int[]{pivot1+1, pivot2+1};
-                    if (difference < numbers[pivot2]) right = pivot2 - 1;
-                    else left = pivot2 + 1;
-                }
-                pivot1++;
-                difference=target-numbers[pivot1];
-                left = pivot1+1;
-                right = numbers.length - 1;
-            }
-        }catch (Exception e){
-            System.out.println();
+            quickSort(arr, begin, partitionIndex - 1);
+            quickSort(arr, partitionIndex + 1, end);
         }
-
-
-        return null;
     }
 
+    private int partition(int[] arr, int begin, int end) {
+        int pivot = arr[end];
+        int i = (begin - 1);
 
+        for (int j = begin; j < end; j++) {
+            if (arr[j] <= pivot) {
+                i++;
+
+                int swapTemp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = swapTemp;
+            }
+        }
+
+        int swapTemp = arr[i + 1];
+        arr[i + 1] = arr[end];
+        arr[end] = swapTemp;
+
+        return i + 1;
+    }
 }
