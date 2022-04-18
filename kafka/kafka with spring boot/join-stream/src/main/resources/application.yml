@@ -1,0 +1,30 @@
+spring.application.name: stream-consumer-join
+spring:
+  kafka:
+#    producer:
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+#    streams:
+#      client-id: theconsumerjoin
+#      properties:
+#        default.key.serde: org.apache.kafka.common.serialization.StringSerializer
+#        default.value.serde: org.springframework.kafka.support.serializer.JsonSerde
+#        spring.json.trusted.packages: "*"
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    streams:
+      properties:
+#        default.key.serde: org.apache.kafka.common.serialization.StringSerializer
+        default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+        default.value.serde: org.springframework.kafka.support.serializer.JsonSerde
+        spring.json.trusted.packages: "*"
+      state-dir: /tmp/kafka-streams/
+      cleanup:
+        on-shutdown: true
+    bootstrap-servers: localhost:29092
+    listener:
+      missing-topics-fatal: false
+
+server:
+  port: 8083

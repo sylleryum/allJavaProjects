@@ -20,11 +20,4 @@ public class KafkaProducerApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 	}
 
-	@Bean
-	public NewTopic newTopic(){
-		return TopicBuilder.name("t1")
-				.partitions(3)
-				.build();
-	}
-
 }
