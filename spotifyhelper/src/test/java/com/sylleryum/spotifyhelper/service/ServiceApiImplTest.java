@@ -98,6 +98,20 @@ class ServiceApiImplTest {
         assertThat(playlist).isNotNull();
     }
 
+    @Test
+    void name() {
+        int numero = 5;
+        int res = prova(5);
 
+        System.out.println();
+    }
+
+    int prova(int num) {
+        if (num <= 1) {
+            return 1;
+        }
+        int p = prova(num - 1);
+        return p * num;
+    }
 
 }
