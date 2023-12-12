@@ -1,12 +1,13 @@
 package com.sylleryum.spotifyhelper.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.sylleryum.spotifyhelper.config.Endpoints;
 import com.sylleryum.spotifyhelper.helper.TraceIdGenerator;
 import com.sylleryum.spotifyhelper.model.AccessToken;
+import com.sylleryum.spotifyhelper.model.spotify.AlbumStats;
 import com.sylleryum.spotifyhelper.model.FullTrackDetails;
 import com.sylleryum.spotifyhelper.model.jsonResponses.UserPlaylistWrapper;
 import com.sylleryum.spotifyhelper.model.jsonResponses.UserPlaylists;
+import com.sylleryum.spotifyhelper.model.spotify.ContainerAlbumStats;
 import com.sylleryum.spotifyhelper.model.spotify.user.User;
 import com.sylleryum.spotifyhelper.model.jsonResponses.OrderPlaylist;
 import com.sylleryum.spotifyhelper.model.jsonResponses.UnavailableTracksWrapper;
@@ -59,6 +60,18 @@ public class TheController {
         String playlistRandom = serviceApi.orderPlaylistRandom(playlistId.get(), accessToken);
 
         return ResponseEntity.ok(new OrderPlaylist(playlistRandom, "random"));
+    }
+
+    @GetMapping(path = {"/playlist-stats/{playlistId}"})
+    public ResponseEntity<?> playlistStats(@PathVariable Optional<String> playlistId, HttpSession session) throws MissingArgumentException, MissingTokenException, URISyntaxException, JsonProcessingException {
+        if (playlistId.isEmpty()) {
+            throw new MissingArgumentException("Missing Playlist ID");
+        }
+        AccessToken accessToken = (AccessToken) session.getAttribute(SESSION_ACCESS_TOKEN);
+
+        List<ContainerAlbumStats> containerAlbumStats = serviceApi.albumStats(playlistId.get(), accessToken);
+
+        return ResponseEntity.ok(containerAlbumStats);
     }
 
     @GetMapping("/me")

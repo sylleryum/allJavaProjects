@@ -2,9 +2,11 @@ package com.sylleryum.spotifyhelper.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.sylleryum.spotifyhelper.model.AccessToken;
+import com.sylleryum.spotifyhelper.model.spotify.AlbumStats;
 import com.sylleryum.spotifyhelper.model.FullTrackDetails;
 import com.sylleryum.spotifyhelper.model.exception.MissingTokenException;
 import com.sylleryum.spotifyhelper.model.jsonResponses.UserPlaylists;
+import com.sylleryum.spotifyhelper.model.spotify.ContainerAlbumStats;
 import com.sylleryum.spotifyhelper.model.spotify.playlists.PlaylistItem;
 import com.sylleryum.spotifyhelper.model.spotify.singlePlaylist.Item;
 import com.sylleryum.spotifyhelper.model.spotify.user.User;
@@ -23,6 +25,8 @@ public interface ServiceApi {
     PlaylistItem createPlaylist(String playlistName, AccessToken accessToken) throws MissingTokenException, URISyntaxException, JsonProcessingException;
 
     AccessToken setRefresh(String refresh) throws MissingTokenException, URISyntaxException;
+
+    List<ContainerAlbumStats> albumStats(String playlistId, AccessToken currentAccessToken)  throws MissingTokenException, URISyntaxException, JsonProcessingException;
 
     String orderPlaylistRandom(String playlistId, AccessToken currentAccessToken) throws MissingTokenException, URISyntaxException, JsonProcessingException;
 

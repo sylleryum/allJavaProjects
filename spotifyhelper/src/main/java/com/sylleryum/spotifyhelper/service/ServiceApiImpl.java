@@ -6,14 +6,14 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sylleryum.spotifyhelper.config.Endpoints;
 import com.sylleryum.spotifyhelper.helper.SpotifyObjectsConverter;
 import com.sylleryum.spotifyhelper.helper.TraceIdGenerator;
-import com.sylleryum.spotifyhelper.model.AccessToken;
-import com.sylleryum.spotifyhelper.model.CreatePlaylist;
-import com.sylleryum.spotifyhelper.model.FullTrackDetails;
-import com.sylleryum.spotifyhelper.model.Uri;
+import com.sylleryum.spotifyhelper.model.*;
 import com.sylleryum.spotifyhelper.model.exception.MissingTokenException;
 import com.sylleryum.spotifyhelper.model.jsonResponses.UserPlaylists;
+import com.sylleryum.spotifyhelper.model.spotify.AlbumStats;
+import com.sylleryum.spotifyhelper.model.spotify.ContainerAlbumStats;
 import com.sylleryum.spotifyhelper.model.spotify.playlists.PlaylistItem;
 import com.sylleryum.spotifyhelper.model.spotify.playlists.PlaylistList;
+import com.sylleryum.spotifyhelper.model.spotify.singlePlaylist.Album;
 import com.sylleryum.spotifyhelper.model.spotify.singlePlaylist.Item;
 import com.sylleryum.spotifyhelper.model.spotify.singlePlaylist.PreSinglePlaylist;
 import com.sylleryum.spotifyhelper.model.spotify.singlePlaylist.SinglePlaylist;
@@ -24,11 +24,11 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestClientResponseException;
 import org.springframework.web.client.RestTemplate;
+import java.util.Map.Entry;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
 import java.net.URISyntaxException;
-import java.text.Collator;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -106,6 +106,67 @@ public class ServiceApiImpl implements ServiceApi {
 
         TraceIdGenerator.writeDebug("Playlist created: " + playlistName, ServiceApiImpl.class, StackWalker.getInstance().walk(frames -> frames.findFirst().map(StackWalker.StackFrame::getMethodName)).orElse(METHOD_NAME_NOT_FOUND));
         return result;
+    }
+
+    @Override
+    public List<ContainerAlbumStats> albumStats(String playlistId, AccessToken currentAccessToken)  throws MissingTokenException, URISyntaxException, JsonProcessingException {
+        AccessToken accessToken = beforeCall(currentAccessToken);
+
+        Map<String, List<Item>> playlistTracks = getPlaylistTracks(playlistId, accessToken);
+
+        //playlistTracks.values().stream().findFirst().get().stream().map(i -> { })
+
+        Map<Integer, Map<String, AlbumStats>> stats = new HashMap<>();
+        for(Item item: playlistTracks.values().stream().findFirst().get()){
+            Album album = item.getTrack().getAlbum();
+            //if year exists
+            if (stats.entrySet().stream()
+                    .noneMatch(i->i.getKey()==Integer.parseInt(album.getReleaseDate().substring(0,4)))){
+                stats.put(Integer.parseInt(album.getReleaseDate().substring(0,4)), new HashMap<>());
+            }
+            Map<String, AlbumStats> yearMap = stats.get(Integer.parseInt(album.getReleaseDate().substring(0, 4)));
+            //if artist exists
+            if (yearMap.entrySet().stream()
+                    .noneMatch(i->i.getValue().getArtist().equalsIgnoreCase(album.getArtists().get(0).getName()))){
+                yearMap.put(album.getArtists().get(0).getName(), new AlbumStats(
+                        album.getName(),
+                        0,
+                        Integer.parseInt(album.getReleaseDate().substring(0, 4)),
+                        album.getArtists().get(0).getName()
+                ));
+            }
+            AlbumStats albumStats = yearMap.get(album.getArtists().get(0).getName());
+            albumStats.setTrackAmount(albumStats.getTrackAmount()+1);
+        }
+
+
+
+        Map<Integer, Map<String, AlbumStats>> sortedInner = new HashMap<>();
+        stats.forEach((key, innerMap) -> {
+            List<Map.Entry<String, AlbumStats>> entryList = new ArrayList<>(innerMap.entrySet());
+
+            // Custom comparator based on AlbumStats.trackAmount in descending order
+            Comparator<Map.Entry<String, AlbumStats>> comparator = Comparator
+                    .comparing((Map.Entry<String, AlbumStats> entry) -> entry.getValue().getTrackAmount())
+                    .reversed();
+
+            // Sort the entryList using the comparator in descending order
+            entryList.sort(comparator);
+
+            // Create a new LinkedHashMap to store the sorted entries
+            Map<String, AlbumStats> sortedInnerMap = new LinkedHashMap<>();
+            entryList.forEach(entry -> sortedInnerMap.put(entry.getKey(), entry.getValue()));
+
+            // Put the sorted inner map into the new outer map
+            sortedInner.put(key, sortedInnerMap);
+        });
+
+        Map<Integer, Map<String, AlbumStats>> result = sortedInner.entrySet().stream()
+                .sorted((i1, i2) -> Integer.compare(i2.getKey(), i1.getKey()))
+                .collect(Collectors.toMap(
+                        entry -> entry.getKey(), entry -> entry.getValue(), (e1, e2) -> e1, LinkedHashMap::new
+                ));
+        return null;
     }
 
     @Override
